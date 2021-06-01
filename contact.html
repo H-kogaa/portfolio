@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>KOGA PORTFOLIO</title>
+        <meta name="description" content="KOGA PORTFORIO">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header-profile">
+            <nav>
+                <ul>
+                    <a href="profile.html">profile</a>
+                    <a href="works.html">works</a>
+                    <a href="blog.html">blog</a>
+                    <a href="contact.html">contact</a>
+                </ul>
+            </nav>
+        </header>
+        <h2 class="title">CONTACT</h2>
+
+        <form action="mail.php" method="post" id="form">  
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="your-name">
+
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="your-email">
+
+                <label for="message">メッセージ</label>
+                <textarea id="message" name="your-message"></textarea>
+
+                <input type="submit" class="button" name="submitted" value="送信">
+        </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
